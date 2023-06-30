@@ -8,6 +8,7 @@
           - uses: actions/checkout@v2
 
           - name: FTP Deploy WebHost
+            uses: SamKirkland/FTP-Deploy-Action@4.1.0
             with:
               host: ${{ secrets.ftp_HOST }} 
               user: ${{ secrets.ftp_USER }}

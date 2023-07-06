@@ -14,5 +14,5 @@ jobs:
         server: ${{ secrets.ftp_HOST }}
         username: ${{ secrets.ftp_USER }}
         password: ${{ secrets.ftp_PASS }}
-        local-dir: home/vol19_1/infinityfree.com/if0_34532006/
-        server-dir: home/vol19_1/infinityfree.com/if0_34532006/
+        local-dir: ./
+        server-dir: ./

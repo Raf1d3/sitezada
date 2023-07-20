@@ -1,4 +1,4 @@
-
+/*comentario*/
 
 p1{color : purple; font-size: 30px}
 p2{color : blue; font-size: 60px}
@@ -10,11 +10,68 @@ table{color : blue; font-size: 50px}
 
 
 
-body{background-image: url(/arquivos/imagem/b.jpg)}
-body{background-size: cover}
-body{background-attachment: scroll}
+.body_1{
+    background-image: url(/arquivos/imagem/b.jpg)
+}
+.body_1{
+    background-size: cover
+}
+.body_1{
+    background-attachment: scroll
+}
 
-/*comentario*/
+
+/*===== PAGINA 2 ====== */
+
+#body_2{
+    background-color: #ffffff;
+}
+
+#giflgbt{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+
+}
+
+#txt_bv{
+    font-size: 50px;
+    color: rgba(214, 81, 219, 0.678) ;
+    text-align: center;
+
+}
+
+#footer{
+    margin-top: 60px;
+}
+
+#inst1{
+    display:flow-root;
+    
+}
+
+
+/*====== modelo pronto botão brabo ======*/
+#bot_voltar {
+    font-family: inherit;
+    border: none;
+    outline: 1px dotted rgb(37, 37, 37);
+    outline-offset: -4px;
+    background: hsl(0deg 0% 75%);
+    box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 30px;
+  }
+  
+  #bot_voltar:active {
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+  }
+
+
+
 
 
 

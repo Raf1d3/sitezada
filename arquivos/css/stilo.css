@@ -110,6 +110,7 @@ padding-bottom: 200px;
 }
 
 
+/*===== Anuncio esmagares minha rata ====== */
 
 #ad{
   display: flex;
@@ -133,6 +134,8 @@ padding-bottom: 200px;
   width: 130px;
   height: 236px;
   display:inline-block;
+  image-rendering:pixelated;
+
 }
 #txt_title1{
   font-size: 20px;
@@ -234,10 +237,13 @@ padding-bottom: 200px;
 
 
 
+/*====== adaptação modelo movel Pagina 1 ======*/
 
 
 
-/*====== adaptação modelo movel ======*/
+
+
+/*====== adaptação modelo movel Pagina 2 ======*/
 
 @media (max-width: 485px) {
 

@@ -1,29 +1,36 @@
 
 /*=====Implementação de fontes=====*/
+
+/*=====ComicSans=====*/
   @font-face {
     font-family:LDFComicSans;
-    src:url("/arquivos/fontes/LDFComicSans.ttf");
+    src:url("/arquivos/fontes/comicSans/LDFComicSans.ttf");
     
   }
 
   @font-face {
     font-family:LDFComicSansBold;
-    src:url("/arquivos/fontes/LDFComicSansBold.ttf");
+    src:url("/arquivos/fontes/comicSans/LDFComicSansBold.ttf");
     
   }
 
   @font-face {
     font-family:LDFComicSansHairline;
-    src:url("/arquivos/fontes/LDFComicSansHairline.ttf");
+    src:url("/arquivos/fontes/comicSans/LDFComicSansHairline.ttf");
     
   }
 
   @font-face {
     font-family:LDFComicSansLight;
-    src:url("/arquivos/fontes/LDFComicSansLight.ttf");
+    src:url("/arquivos/fontes/comicSans/LDFComicSansLight.ttf");
     
   }
 
+
+  /*=====Roboto=====*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+  
 
 .body_1{
     background-image: url(/arquivos/imagem/b.jpg)
@@ -102,6 +109,95 @@ padding-bottom: 200px;
 
 }
 
+
+
+#ad{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 300px;
+}
+
+#quadrado{
+  background-color: #E5D3C5;
+  width: 384px;
+  height: 265px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+#fotodamuie{
+  margin: 15px ;
+  width: 130px;
+  height: 236px;
+  display:inline-block;
+}
+#txt_title1{
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  width: 155px;
+  height: 30px;
+  margin: 12px 40px 0px;
+  
+
+}
+#txt_title2{
+  font-size: 23px;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  width: 155px;
+  height: 30px;
+  margin: 0px 40px 0px;
+}
+
+#textos{
+  width: 210px;
+  height: 260px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#txt_1{
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  margin: 18px 0px 1px;
+  width: 202px;
+
+}
+#txt_2{
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  margin: 1px 0px 10px;
+}
+.txt_3{
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  color: black; 
+}
+
+#txt_link{
+  margin: 14px 0px 0px;
+  font-size: 30px;
+  font-family: Khula-ExtraBold;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: bolder;
+
+}
+
+
+
+
 #txt_bv{
     font-size: 50px;
     color: rgba(214, 81, 219, 0.678) ;
@@ -117,7 +213,6 @@ padding-bottom: 200px;
     display:flow-root;
     
 }
-
 
 /*====== modelo pronto botão brabo ======*/
 #bot_voltar {
@@ -136,6 +231,10 @@ padding-bottom: 200px;
   #bot_voltar:active {
     box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
   }
+
+
+
+
 
 
 /*====== adaptação modelo movel ======*/
@@ -158,6 +257,17 @@ padding-bottom: 200px;
   
   }
 
+
+  @media (max-width: 485px) {
+
+
+    #quadrado{
+      transform: scale(0.5);
+       margin: 0;
+       width: 0;
+    }
+  
+  }
 
 
 

@@ -1,97 +1,107 @@
-
 /*=====Implementação de fontes=====*/
 
 /*=====ComicSans=====*/
-  @font-face {
-    font-family:LDFComicSans;
-    src:url("/arquivos/fontes/comicSans/LDFComicSans.ttf");
-    
-  }
-
-  @font-face {
-    font-family:LDFComicSansBold;
-    src:url("/arquivos/fontes/comicSans/LDFComicSansBold.ttf");
-    
-  }
-
-  @font-face {
-    font-family:LDFComicSansHairline;
-    src:url("/arquivos/fontes/comicSans/LDFComicSansHairline.ttf");
-    
-  }
-
-  @font-face {
-    font-family:LDFComicSansLight;
-    src:url("/arquivos/fontes/comicSans/LDFComicSansLight.ttf");
-    
-  }
-
-
-  /*=====Roboto=====*/
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@1,900&display=swap');
-  
-
-.body_1{
-    background-image: url(/arquivos/imagem/b.jpg)
-}
-.body_1{
-    background-size: cover
-}
-.body_1{
-    background-attachment: scroll
-}
-
-
-a{color : blue; font-size: 20px}
-table{color : blue; font-size: 50px}
-
-#title{
- color: rgb(255, 200, 61);
- font-size: 60px;
- font-weight: 900;
- font-family:LDFComicSansBold;
- letter-spacing: 3px;
-}
-#size1{
- font-size: 40px; 
-}
-#size2{
- font-size: 100px; 
-}
-
-#ordem{
-font-size: 50px;
-display: block;
-padding-bottom: 500px;
-color: rgba(247, 222, 0, 0.521);
-}
-
-#ordem_2{
-color: rgba(2, 45, 126, 0.616);
-font-size: 100px;
-display: block;
-padding-bottom: 200px;
-}
-
-#endpage{
- text-decoration: none;
-}
-
-#bot_rdp{
- display: block;
- margin: 20px 0px;
-    
-}
-
-#duck_flip{
- width: 300px;
- height: 400px;
- display: none;
+@font-face {
+  font-family: LDFComicSans;
+  src: url("/arquivos/fontes/comicSans/LDFComicSans.ttf");
 
 }
 
-#bot_pg2{
+@font-face {
+  font-family: LDFComicSansBold;
+  src: url("/arquivos/fontes/comicSans/LDFComicSansBold.ttf");
+
+}
+
+@font-face {
+  font-family: LDFComicSansHairline;
+  src: url("/arquivos/fontes/comicSans/LDFComicSansHairline.ttf");
+
+}
+
+@font-face {
+  font-family: LDFComicSansLight;
+  src: url("/arquivos/fontes/comicSans/LDFComicSansLight.ttf");
+
+}
+
+
+/*=====Roboto=====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+
+.body_1 {
+  background-image: url(/arquivos/imagem/b.jpg)
+}
+
+.body_1 {
+  background-size: cover
+}
+
+.body_1 {
+  background-attachment: scroll
+}
+
+
+a {
+  color: blue;
+  font-size: 20px
+}
+
+table {
+  color: blue;
+  font-size: 50px
+}
+
+#title {
+  color: rgb(255, 200, 61);
+  font-size: 60px;
+  font-weight: 900;
+  font-family: LDFComicSansBold;
+  letter-spacing: 3px;
+}
+
+#size1 {
+  font-size: 40px;
+}
+
+#size2 {
+  font-size: 100px;
+}
+
+#ordem {
+  font-size: 50px;
+  display: block;
+  padding-bottom: 500px;
+  color: rgba(247, 222, 0, 0.521);
+}
+
+#ordem_2 {
+  color: rgba(2, 45, 126, 0.616);
+  font-size: 100px;
+  display: block;
+  padding-bottom: 200px;
+}
+
+#endpage {
+  text-decoration: none;
+}
+
+#bot_rdp {
+  display: block;
+  margin: 20px 0px;
+
+}
+
+#duck_flip {
+  width: 300px;
+  height: 400px;
+  display: none;
+
+}
+
+#bot_pg2 {
   width: 140px;
   height: 35px;
 }
@@ -101,29 +111,29 @@ padding-bottom: 200px;
 
 /*===== PAGINA 2 ====== */
 
-#body_2{
-    background-color: #ffffff;
+#body_2 {
+  background-color: #ffffff;
 }
 
-#giflgbt{
-    display: flex;
-    width: 500px;
-    height: 600px;
-    margin: auto;
+#giflgbt {
+  display: flex;
+  width: 500px;
+  height: 600px;
+  margin: auto;
 
 }
 
 
 /*===== Anuncio esmagares minha rata ====== */
 
-#ad{
+#ad {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   height: 300px;
 }
 
-#quadrado{
+#quadrado {
   background-color: #E5D3C5;
   width: 384px;
   height: 265px;
@@ -133,15 +143,16 @@ padding-bottom: 200px;
 
 }
 
-#fotodamuie{
-  margin: 15px ;
+#fotodamuie {
+  margin: 15px;
   width: 130px;
   height: 236px;
-  display:inline-block;
-  image-rendering:pixelated;
+  display: inline-block;
+  image-rendering: pixelated;
 
 }
-#txt_title1{
+
+#txt_title1 {
   font-size: 20px;
   font-weight: bolder;
   font-family: 'Inter', sans-serif;
@@ -149,10 +160,11 @@ padding-bottom: 200px;
   width: 155px;
   height: 30px;
   margin: 12px 40px 0px;
-  
+
 
 }
-#txt_title2{
+
+#txt_title2 {
   font-size: 23px;
   font-weight: bolder;
   font-family: 'Inter', sans-serif;
@@ -162,7 +174,7 @@ padding-bottom: 200px;
   margin: 0px 40px 0px;
 }
 
-#textos{
+#textos {
   width: 210px;
   height: 260px;
   margin-right: 10px;
@@ -172,7 +184,7 @@ padding-bottom: 200px;
 
 }
 
-#txt_1{
+#txt_1 {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
   color: black;
@@ -180,19 +192,21 @@ padding-bottom: 200px;
   width: 202px;
 
 }
-#txt_2{
+
+#txt_2 {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
   color: black;
   margin: 1px 0px 10px;
 }
-.txt_3{
+
+.txt_3 {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
-  color: black; 
+  color: black;
 }
 
-#txt_link{
+#txt_link {
   margin: 14px 0px 0px;
   font-size: 30px;
   font-family: Khula-ExtraBold;
@@ -205,39 +219,39 @@ padding-bottom: 200px;
 
 
 
-#txt_bv{
-    font-size: 50px;
-    color: rgba(214, 81, 219, 0.678) ;
-    text-align: center;
+#txt_bv {
+  font-size: 50px;
+  color: rgba(214, 81, 219, 0.678);
+  text-align: center;
 
 }
 
-#footer{
-    margin-top: 60px;
+#footer {
+  margin-top: 60px;
 }
 
-#inst1{
-    display:flow-root;
-    
+#inst1 {
+  display: flow-root;
+
 }
 
 /*====== modelo pronto botão brabo ======*/
 #bot_voltar {
-    font-family: inherit;
-    border: none;
-    outline: 1px dotted rgb(37, 37, 37);
-    outline-offset: -4px;
-    background: hsl(0deg 0% 75%);
-    box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 5px 30px;
-  }
-  
-  #bot_voltar:active {
-    box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
-  }
+  font-family: inherit;
+  border: none;
+  outline: 1px dotted rgb(37, 37, 37);
+  outline-offset: -4px;
+  background: hsl(0deg 0% 75%);
+  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 30px;
+}
+
+#bot_voltar:active {
+  box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);
+}
 
 
 
@@ -251,59 +265,32 @@ padding-bottom: 200px;
 
 @media (max-width: 485px) {
 
-    #giflgbt{
-     width: 200px;
-    }
-  
+  #giflgbt {
+    width: 200px;
   }
 
-  @media (max-width: 485px) {
+}
 
-    #duck_flip{
-     width: 200px;
-     height: 400px;
-       
-       }
-  
+@media (max-width: 485px) {
+
+  #duck_flip {
+    width: 200px;
+    height: 400px;
+
   }
 
+}
 
-  @media (max-width: 485px) {
+
+@media (max-width: 485px) {
 
 
-    #quadrado{
-      transform: scale(0.5);
-       margin: 0;
-       width: 0;
-    }
-  
+  #quadrado {
+    transform: scale(0.5);
+    margin: 0;
+    width: 0;
   }
 
-  /*============================== PAGINA 3 ============================== */
+}
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*============================== PAGINA 3 ============================== */

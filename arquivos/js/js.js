@@ -1,3 +1,18 @@
+
+function mudou(){
+document.getElementById("ordem").innerHTML += "<br> Paulo da cu";
+
+
+if(bola.style.display === 'none'){
+  bola.style.display = 'block';
+}
+else{
+  bola.style.display = 'none';
+}
+
+}
+
+
 // faz aparecer e desaperecer gif do pato
 document.addEventListener("DOMContentLoaded", function() {
     const bot_rdp = document.getElementById('bot_rdp');

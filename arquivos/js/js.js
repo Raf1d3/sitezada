@@ -12,6 +12,8 @@ else{
 
 }
 
+// Define o estado inicial do gif para 'none'
+duck_flip.style.display = 'none';
 
 // faz aparecer e desaperecer gif do pato
 document.addEventListener("DOMContentLoaded", function() {

@@ -1,7 +1,26 @@
+
+function mudou(){
+document.getElementById("ordem").innerHTML += "<br> Paulo da cu";
+
+
+if(bola.style.display === 'none'){
+  bola.style.display = 'block';
+}
+else{
+  bola.style.display = 'none';
+}
+
+}
+
+
+
 // faz aparecer e desaperecer gif do pato
 document.addEventListener("DOMContentLoaded", function() {
     const bot_rdp = document.getElementById('bot_rdp');
     const duck_flip = document.getElementById('duck_flip');
+
+    // Define o estado inicial do gif para 'none'
+    duck_flip.style.display = 'none';
 
 // Adiciona um evento de clique ao botão
 bot_rdp.addEventListener('click', () => {

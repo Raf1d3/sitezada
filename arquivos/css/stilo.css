@@ -317,3 +317,9 @@ table {
 }
 
 /*============================== Sistema solar ============================== */
+#header{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+}

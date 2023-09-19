@@ -227,6 +227,8 @@ table {
   font-family: 'Inter', sans-serif;
   text-align: center;
   color: #000000;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 #txt_link {

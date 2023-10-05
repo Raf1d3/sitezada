@@ -28,7 +28,7 @@
 
 </heat>
 
-<body id="body_1" onresize="mudou()">
+<body id="body_1" onresize="mudou()"  onload="carregou()">
   <!-- Cabeçalho-->
   <header id="header">
 
@@ -101,7 +101,7 @@
     <section>
       <a id="desc_rdp">Rodapé👀</a>
       <a id="endpage" href="#final">
-        <button id="bot_rdp">Rodapé</button>
+        <button id="bot_rdp" onclick="oneclick()" ondblclick="twoclick()">Rodapé</button>
       </a>
       <img id="duck_flip" src="arquivos/imagem/pato-girando.gif"
         alt="imagem de um pato com pé de pato girando em sentido horario">

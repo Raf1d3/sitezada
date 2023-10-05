@@ -225,6 +225,8 @@ table {
   font-family: 'Inter', sans-serif;
   text-align: center;
   color: #000000;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 #txt_link {
@@ -314,4 +316,10 @@ table {
 
 }
 
-/*============================== PAGINA 3 ============================== */
+/*============================== Sistema solar ============================== */
+#header{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogostilo.css">
+    <link rel="shortcut icon" type="imagex/png" href="./arquivos/icon_bike.png">
+    <title>Jogo Bike</title>
+</head>
+<body>
+    <div class="jogo">
+        <img class="eu" src="arquivos/eu.gif" alt="personagem eu">
+        <img class="pedra" src="arquivos/pedra.png" alt="obstaculo pedra">
+        <img class="buraco" src="arquivos/buraco.png" alt="obstaculo buraco">
+        <img class="hidrante" src="arquivos/hidrante.png" alt="obstaculo hidrante">
+        <img class="clouds" src="arquivos/clouds.png" alt="senario nuvem">
+        <div id="pop_up_comandos">
+            <img src="arquivos/comandos.png" alt="comandos do jogo">
+        </div>
+        <h2 id="score"></h2>
+        <div id="title">
+        <h1>Aprendendo a andar de bike</h1>
+        <h2>Desvie de todos os obstaculos</h2>
+        </div>
+        <div id="pop_up_final">
+            <h1><strong>Parabens</strong> voce ganhou</h1>
+            <h2>e adquiriu a habilidade</h2>
+            <span id="cor"><h1>Equilibrio</h1></span>
+            <img src="arquivos/equilibrio.gif" alt="moto pulando">
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+        
+        <img class="bot_comandos" src="arquivos/bot_comandos.png" alt="botão comandos" onclick="clicado()">
+        <button class="start" onclick="startGame()">Iniciar</button>
+        
+        <div class="camada_chao"></div>
+    </div>
+    
+    
+    <div class="game-over"><h1>GAME OVER</h1>
+        <h2>Voce consegue 🏆</h2>
+        <h2>Não desista !!!</h2>
+        <button onclick="restartGame()">Reiniciar</button></div>
+</body>
+<script src="jogoscript.js"></script>
+</html>

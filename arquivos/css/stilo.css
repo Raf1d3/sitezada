@@ -108,7 +108,7 @@ table {
 
 #endpage {
   text-decoration: none;
-}
+  }
 
 #bot_rdp {
   display: block;
@@ -251,7 +251,12 @@ table {
 
 #footer {
   margin-top: 60px;
+  display: flex;
 }
+#footer section{
+  width: fit-content;
+}
+
 
 #inst1 {
   display: flow-root;

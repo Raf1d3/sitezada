@@ -1,5 +1,25 @@
 /*=====Implementação de fontes=====*/
 
+/*=====Roboto=====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+
+#text {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#bola {
+  display: none;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: -15px;
+}
+
 /*=====ComicSans=====*/
 @font-face {
   font-family: LDFComicSans;
@@ -26,43 +46,23 @@
 }
 
 
-/*=====Roboto=====*/
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@1,900&display=swap');
 
 
-#text{
-  display: flex;
-  flex-direction: column;
-}
-
-
-#bola{
-  display: none;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  right: 0;
-  top: -15px;
-}
-
-
-
-
-/*===== PAGINA 1 ====== */
+/*========================================================== PAGINA 1 ========================================================== */
 
 
 #body_1 {
   background-image: url(/arquivos/imagem/b.jpg);
   background-size: cover;
   margin: 0;
+  margin-left: 5px;
 }
 
 #text hr {
   margin: 10px 0px 10px 0px;
   padding: 1px 0px;
   color: #0ac2c2;
-  border-style:dashed;
+  border-style: dashed;
   border-width: 2px;
 }
 
@@ -108,7 +108,7 @@ table {
 
 #endpage {
   text-decoration: none;
-  }
+}
 
 #bot_rdp {
   display: block;
@@ -123,14 +123,14 @@ table {
 
 }
 
-#bot_pg2 {
+.bots {
   width: 140px;
   height: 35px;
 }
 
 
 
-/*===== PAGINA 2 ====== */
+/*========================================================== PAGINA 2 ========================================================== */
 
 #body_2 {
   background-color: #ffffff;
@@ -253,7 +253,8 @@ table {
   margin-top: 60px;
   display: flex;
 }
-#footer section{
+
+#footer section {
   width: fit-content;
 }
 
@@ -321,10 +322,172 @@ table {
 
 }
 
-/*============================== Sistema solar ============================== */
-#header{
+/*========================================================== Sistema solar ========================================================== */
+
+#body_3 {
+  margin: 0;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 2, 32);
+  overflow: hidden;
+}
+
+.container {
+  font-size: 10px;
+  width: 40em;
+  position: relative;
+}
+
+.sun {
+  position: absolute;
+  top: 15em;
+  left: 15em;
+  width: 10em;
+  height: 10em;
+  background-color: rgb(255, 230, 0);
+  border-radius: 50%;
+  box-shadow: 0 0 3em rgb(255, 255, 255);
+}
+
+.earth,
+.moon {
+  position: absolute;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+  border-width: 0.1em 0.1em 0 0;
+  border-radius: 50%;
+}
+
+.earth {
+  top: 5em;
+  left: 5em;
+  width: 30em;
+  height: 30em;
+  animation: orbit 36.5s linear infinite;
+}
+
+.moon {
+  top: 0;
+  right: 0;
+  width: 8em;
+  height: 8em;
+  animation: orbit 2.7s linear infinite;
+}
+
+.earth::before,
+.moon::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%
+}
+
+.earth::before {
+  top: 2.8em;
+  right: 2.8em;
+  width: 3em;
+  height: 3em;
+  background-color: aqua;
+}
+
+.moon::before {
+  top: 0.8em;
+  right: 0.2em;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: silver;
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#header {
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+#header a {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+/*========================================================== PAGINA TESTE ========================================================== */
+#body_4 {
+  margin: 0;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#97964f91, #079b628f, #0e649e77);
+  background-color: #4d26267a;
+  background-attachment: fixed;
   
+}
+#body_4 h1{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 35px;
+margin: 0px 0px 10px;
+}
+
+#bot_pg4_voltar {
+  margin: 10px 0px;
+}
+#horiario{
+  right: 0px;
+  margin-right: 5px;
+  margin-top: 6px;
+  position: absolute;
+}
+#horiario h2{
+  margin: 0px 4px 0px;
+
+}
+
+
+#bot_calcular{
+  margin: 10px 0px 10px;
+}
+#calculadora{
+  margin-top: 10px;
+}
+
+#contador{
+  margin-top: 20px;
+}
+#contador input{
+  margin-top: 10px;
+}
+#contador h3{
+  margin: 8px 0px 0px;
+}
+
+#ct_ate{
+margin-left: 13px;
+}
+#ger_tabuada{
+  margin-top: 20px;
+}
+#result_tab{
+  margin: 10px 0px;
+}
+
+#anlz_num{
+  margin-top: 20px;
+}
+#mostra_anlz{
+  min-width: 150px;
+  margin: 10px 0px 0px;
+}
+#bot_finaliza{
+  margin: 10px 0px;
 }

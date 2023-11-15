@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Endereçando arquivo css -->
+    <link rel="stylesheet" type="text/css" href="arquivos/css/stilo.css">
+    <title>Pagina teste</title>
+</head>
+
+<body id="body_4">
+    <header>
+        <div id="horiario">
+            <h2 id="hr">hora: 12:00</h2>
+            <h2 id="sem">dia: sabado</h2>
+        </div>
+    </header>
+    <section id="calculadora">
+        <h1>Calculadora</h1>
+        <input type="number" name="number1" id="nb1" placeholder="Valor 1">
+        <select id="operation" onchange="mudanca()">
+            <option value="soma">+</option>
+            <option value="sub">-</option>
+            <option value="mult">*</option>
+            <option value="divis">/</option>
+            <option value="elev">^</option>
+            <option value="percent">%</option>
+            <option value="fat">n!</option>
+            <option value="rad">√</option>
+            <option value="e">e</option>
+            <option value="pi">π</option>
+        </select>
+        <input type="number" name="number2" id="nb2" placeholder="Valor 2"> =
+        <input type="text" name="resposta" id="resultado" value="" disabled=" " placeholder="Resultado">
+        <br>
+        <input type="button" value="calcular" class="bots" id="bot_calcular">
+        <input type="number" name="cas_deci" id="cas_deci" placeholder="casas decimais (max 10)" max="10">
+    </section>
+
+    <section id="contador">
+        <h1>Contador</h1>
+        <label for="Inicio">Inicio:</label>
+        <input type="number" name="cont_de" id="ct_de"><br>
+        <label for="Até">Até:</label>
+        <input type="number" name="cont_ate" id="ct_ate"><br>
+        <label for="Passo">Passo:</label>
+        <input type="number" name="cont_passo" id="ct_passo"><br>
+        <h3 id="result_cont">Resultado:</h3>
+        <input type="button" value="Contar" class="bots" id="bot_contar">
+    </section>
+
+    <section id="ger_tabuada">
+        <h1>Gerador de Tabuada</h1>
+        <label for="valor">Valor:</label>
+        <input type="number" name="valor_tab" id="val_tab">
+        <input type="button" value="Gerar tabuada" id="bot_gerar"><br>
+        <select name="tabuada" id="result_tab" size="10">
+            <option>Digite um numero acima ^-^</option>
+        </select>
+    </section>
+
+    <section id="anlz_num">
+        <h1>Analizador de numeros</h1>
+        <label for="num">Numeros (entre 1 a 100):</label>
+        <input type="number" name="valor_anlz" id="val_anlz">
+        <input type="button" value="Adicionar valor" id="bot_add"><br>
+        <select name="resultado" id="mostra_anlz" size="10">
+        </select><br>
+        <input type="button" value="Finalizar" id="bot_finaliza">
+        <h3 id="result_anlz"><h3>
+    </section>
+
+
+    <footer>
+        <a href="index.html">
+            <button class="bots" id="bot_pg4_voltar">voltar</button>
+        </a>
+    </footer>
+
+
+</body>
+<script src="arquivos/js/js.js"></script>
+
+</html>
